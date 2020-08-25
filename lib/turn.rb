@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 
+=======
+def turn
+>>>>>>> 68735f533c47a252f5293eb31eb7ccbfb162c942
 board = [9]
 
 def display_board(board)
@@ -18,6 +22,7 @@ def move(board, index, player = "X")
 board[index]= player
 end
 
+<<<<<<< HEAD
 def valid_move?(board, index)
   def position_taken?(board, index)
 
@@ -66,3 +71,12 @@ end
 
 
 
+=======
+def valid_move?
+end
+
+def move
+end
+
+end
+>>>>>>> 68735f533c47a252f5293eb31eb7ccbfb162c942
